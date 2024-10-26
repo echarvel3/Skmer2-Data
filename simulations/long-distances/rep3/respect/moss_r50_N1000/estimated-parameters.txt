@@ -1,0 +1,17 @@
+sample	input_type	sequence_type	coverage	genome_length	uniqueness_ratio	HCRM	sequencing_error_rate	average_read_length
+moss_0.05_8x_1.hist	histogram	genome-skim	8.06	102909289	0.91	1.38	0.0034	150
+moss_0.1_4x_1.hist	histogram	genome-skim	3.99	104003194	0.98	0.32	0.0032	150
+moss_0.15_1x_1.hist	histogram	genome-skim	1.00	103773364	1.00	0.06	0.0031	150
+moss_0.2_8x_1.hist	histogram	genome-skim	7.98	103894395	1.00	0.03	0.0032	150
+moss_0.15_2x_1.hist	histogram	genome-skim	1.99	103916067	1.00	0.08	0.0032	150
+moss_0.1_1x_1.hist	histogram	genome-skim	1.00	104171957	0.98	0.29	0.0032	150
+moss_0.05_2x_1.hist	histogram	genome-skim	2.01	103327892	0.91	1.41	0.0034	150
+moss_0.2_4x_1.hist	histogram	genome-skim	3.99	103880028	1.00	0.04	0.0032	150
+moss_0.2_2x_1.hist	histogram	genome-skim	2.00	103617234	1.00	0.04	0.0032	150
+moss_0.1_2x_1.hist	histogram	genome-skim	1.99	104202222	0.98	0.38	0.0032	150
+moss_0.1_8x_1.hist	histogram	genome-skim	7.99	103797161	0.99	0.33	0.0032	150
+moss_0.2_1x_1.hist	histogram	genome-skim	1.00	103822025	1.00	0.05	0.0031	150
+moss_0.05_1x_1.hist	histogram	genome-skim	1.02	101765422	0.93	1.45	0.0036	150
+moss_0.15_8x_1.hist	histogram	genome-skim	8.00	103690228	1.00	0.08	0.0032	150
+moss_0.15_4x_1.hist	histogram	genome-skim	3.99	104012561	1.00	0.09	0.0032	150
+moss_0.05_4x_1.hist	histogram	genome-skim	4.01	103490217	0.90	1.42	0.0034	150

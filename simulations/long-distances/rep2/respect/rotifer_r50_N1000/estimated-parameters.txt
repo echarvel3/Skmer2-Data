@@ -1,0 +1,17 @@
+sample	input_type	sequence_type	coverage	genome_length	uniqueness_ratio	HCRM	sequencing_error_rate	average_read_length
+rotifer_0.05_1x_1.hist	histogram	genome-skim	0.98	102318768	0.98	1.59	0.0032	150
+rotifer_0.15_1x_1.hist	histogram	genome-skim	1.00	100733045	1.00	0.08	0.0031	150
+rotifer_0.1_8x_1.hist	histogram	genome-skim	7.99	100591868	1.00	0.34	0.0032	150
+rotifer_0.15_8x_1.hist	histogram	genome-skim	7.99	100618476	1.00	0.07	0.0032	150
+rotifer_0.1_1x_1.hist	histogram	genome-skim	1.00	100006939	1.00	0.35	0.0032	150
+rotifer_0.1_2x_1.hist	histogram	genome-skim	1.99	100713152	1.00	0.35	0.0032	150
+rotifer_0.2_1x_1.hist	histogram	genome-skim	1.00	100711843	1.00	0.05	0.0031	150
+rotifer_0.1_4x_1.hist	histogram	genome-skim	3.98	100976590	0.99	0.36	0.0032	150
+rotifer_0.05_4x_1.hist	histogram	genome-skim	3.99	100821824	0.98	1.44	0.0032	150
+rotifer_0.05_2x_1.hist	histogram	genome-skim	1.98	101285165	0.98	1.73	0.0032	150
+rotifer_0.15_2x_1.hist	histogram	genome-skim	2.00	100407134	1.00	0.07	0.0032	150
+rotifer_0.15_4x_1.hist	histogram	genome-skim	3.98	100949196	1.00	0.07	0.0032	150
+rotifer_0.2_8x_1.hist	histogram	genome-skim	7.98	100731687	1.00	0.03	0.0032	150
+rotifer_0.2_4x_1.hist	histogram	genome-skim	3.98	101054962	0.99	0.04	0.0032	150
+rotifer_0.2_2x_1.hist	histogram	genome-skim	1.99	101036250	1.00	0.04	0.0032	150
+rotifer_0.05_8x_1.hist	histogram	genome-skim	7.99	100537812	0.98	1.54	0.0032	150
