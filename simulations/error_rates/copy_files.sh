@@ -30,7 +30,32 @@ for x in {01..10}; do
 
     cp -r ${dir}/result*/ ./respect/
 
+    mkdir --parents ./respect/final_results/moss_r50_N1000/
+    mkdir --parents ./respect/final_results/rotifer_r50_N1000/
+
+    head -n1 ./respect/results/moss_r50_N1000/estimated-parameters.txt > ./respect/final_results/moss_r50_N1000/estimated-parameters.txt
+    head -n1 ./respect/results/rotifer_r50_N1000/estimated-parameters.txt > ./respect/final_results/moss_r50_N1000/estimated-parameters.txt
+
+    cat ./respect/results/moss_r50_N1000/estimated-parameters.txt | grep -v 'eq' >> ./respect/final_results/moss_r50_N1000/estimated-parameters.txt
+    cat ./respect/results2/moss_r50_N1000/estimated-parameters.txt | grep -v 'eq' >> ./respect/final_results/moss_r50_N1000/estimated-parameters.txt
+    cat ./respect/results3/moss_r50_N1000/estimated-parameters.txt | grep -v 'eq' >> ./respect/final_results/moss_r50_N1000/estimated-parameters.txt
+    
+    cat ./respect/results/rotifer_r50_N1000/estimated-parameters.txt | grep -v 'eq' >> ./respect/final_results/rotifer_r50_N1000/estimated-parameters.txt
+    cat ./respect/results2/rotifer_r50_N1000/estimated-parameters.txt | grep -v 'eq' >> ./respect/final_results/rotifer_r50_N1000/estimated-parameters.txt
+    cat ./respect/results3/rotifer_r50_N1000/estimated-parameters.txt | grep -v 'eq' >> ./respect/final_results/rotifer_r50_N1000/estimated-parameters.txt
+
+    head -n1 ./respect/results/moss_r50_N1000/estimated-spectra.txt > ./respect/final_results/moss_r50_N1000/estimated-spectra.txt
+    head -n1 ./respect/results/rotifer_r50_N1000/estimated-spectra.txt > ./respect/final_results/moss_r50_N1000/estimated-spectra.txt
+
+    cat ./respect/results/moss_r50_N1000/estimated-spectra.txt | grep -v 'eq' | grep -v 'sample' >> ./respect/final_results/moss_r50_N1000/estimated-spectra.txt
+    cat ./respect/results2/moss_r50_N1000/estimated-spectra.txt | grep -v 'eq' | grep -v 'sample' >> ./respect/final_results/moss_r50_N1000/estimated-spectra.txt
+    cat ./respect/results3/moss_r50_N1000/estimated-spectra.txt | grep -v 'eq' | grep -v 'sample' >> ./respect/final_results/moss_r50_N1000/estimated-spectra.txt
+    
+    cat ./respect/results/rotifer_r50_N1000/estimated-spectra.txt | grep -v 'eq' | grep -v 'sample' >> ./respect/final_results/rotifer_r50_N1000/estimated-spectra.txt
+    cat ./respect/results2/rotifer_r50_N1000/estimated-spectra.txt | grep -v 'eq' | grep -v 'sample' >> ./respect/final_results/rotifer_r50_N1000/estimated-spectra.txt
+    cat ./respect/results3/rotifer_r50_N1000/estimated-spectra.txt | grep -v 'eq' | grep -v 'sample' >> ./respect/final_results/rotifer_r50_N1000/estimated-spectra.txt
+
+    cp -r ./respect/result*/ ${dir}
 
     popd
-
 done
